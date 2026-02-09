@@ -1,0 +1,44 @@
+# ===================== FRONTEND (React / Vite) =====================
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===================== BACKEND (Spring Boot / Maven) =====================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven wrapper jar (large binary)
+.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot files
+application.properties
+application.yml
+
+# OS
+Thumbs.db
